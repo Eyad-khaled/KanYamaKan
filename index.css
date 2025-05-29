@@ -1,0 +1,31 @@
+#animate{
+    transition: all 1s ease-in-out;
+    max-height: 80vh;
+    margin-top: 50px;
+}
+img{
+    transition: all 2s ease-in-out;
+    
+}
+#animate h2{
+    transition: all .3s ease-out;
+}
+.start{
+    scale: 7;
+}
+.start-animate h2{
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    
+}
+.end{
+scale: 1;
+margin-top: -140px;
+z-index: 1;
+}
+.last{
+    position: relative;
+    left: 11px;
+    top: 12px;
+    width: 60px;
+}
